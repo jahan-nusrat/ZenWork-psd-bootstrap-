@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #3c3768
+}
+
+header {
+    position: relative;
+}
+
+.banner-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.search-icon button {
+    background: linear-gradient(to bottom, #f77775 0%, #bc6271 78%);
+    border-radius: 50%;
+    padding: 0;
+    width: 45px;
+    height: 45px;
+    line-height: 4px;
+    font-size: 1.3rem;
+    color: #fff;
+    box-shadow: -1px 4px 6px #723b44ba;
+}
+
+.search-icon button:active {
+    border: none;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    padding: 0;
+    position: absolute;
+    top: 2px;
+    left: inherit;
+    right: 100%;
+    display: none;
+}
+
+.search-icon .dropdown-toggle::after {
+    content: none;
+}
+
+.navbar-toggler {
+    border-color: rgb(0 0 0 / 0%) !important;
+}
+
+.navbar-toggler span {
+    width: 32px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin: 6px 0;
+    transition: all 0.3s linear;
+}
+
+.navbar-toggler span:nth-child(even) {
+    width: 20px;
+}
+
+.navbar-toggler:hover span {
+    width: 32px;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.banner-content {
+    max-width: 470px;
+    padding-top: 12rem;
+}
+
+.banner-content h1 {
+    font-size: 45px;
+    color: #3c3768;
+    font-weight: 600;
+}
+
+.banner-content p {
+    line-height: 2.2;
+}
+
+.banner-content h5 {
+    line-height: 2.2;
+}
+
+.banner-content input {
+    padding: 10px 25px;
+    height: auto;
+    border: 0;
+    box-shadow: 0 10px 15px #fa787540;
+}
+
+.banner-content button {
+    background: linear-gradient(to bottom, #f77775 0%, #bc6271 78%);
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    margin-left: 1rem;
+}
+
+.form-inline {}
+
+.service-section {
+    position: relative;
+    padding: 6rem 0;
+}
+
+.service-section:nth-child(even) img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.service-section:nth-child(odd) img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    top: 0;
+    right: 0;
+}
+
+footer .footer-bg {
+    background: url('../img/section-4.png');
+}
